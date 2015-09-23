@@ -1,6 +1,10 @@
 <html>
-<body>
-
-</body>
+  <body></body>
 </html>
-<script src="hourglass2.js"></script>
+
+<script type="text/javascript" src="pixel-glass.js"></script>
+<script>
+  var glass = createPixelGlass();
+  document.body.appendChild(glass.getCanvas());
+  glass.start(1,function(){console.log("ok");});
+</script>
