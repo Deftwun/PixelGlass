@@ -28,12 +28,8 @@ var createPixelGlass = function(){
     pixelColors : {
       0: "rgba(1,1,1,1)", //Background color
       1: "rgba(0,0,50,.1)", //Interior
-      /*
       2: "#6acfdd", //Hourglass walls
       3: "#ffef00", //Hourglass walls 2
-      */
-      color: 
-      2:"#6acfdd" 
       4: "#6e4e03", //base
       5: "#553c01", //base 2
       6: "#845600", //base 3
@@ -61,10 +57,6 @@ var createPixelGlass = function(){
     this.leftToRight=false;
     this.create();
   };
-  
-  HourGlass.prototype.registerEvents(){
-     
-  }
   
   HourGlass.prototype.create = function(){
      this.running = false;
